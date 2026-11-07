@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101426">
+  <link rel="manifest" href="manifest.webmanifest">
+  <title>Free Fire Nepal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="brand"><span class="logo">FF</span><div><b>FREE FIRE NEPAL</b><small>NEPAL • MAX ESPORTS</small></div></div><span class="pill">FREE TO PLAY</span></header>
+<main>
+<section class="hero"><p class="eyebrow">NEPAL'S COMMUNITY TOURNAMENT HUB</p><h1>Play. Compete.<br><em>Earn TP.</em></h1><p>Free Fire MAX tournaments and challenges. No deposits, cash betting or withdrawals.</p><div class="actions"><button id="showAuth">Player login</button><a href="#matches" class="secondary">Explore matches</a></div></section>
+<section class="stats"><div><b>FREE</b><small>Entry points</small></div><div><b>48</b><small>BR player limit</small></div><div><b>TP</b><small>Non-cash points</small></div></section>
+<section id="auth" class="panel hidden"><h2>Player account</h2><p class="muted">Create an account or sign in with email.</p><label>Email<input id="email" type="email" autocomplete="email" placeholder="you@example.com"></label><label>Password<input id="password" type="password" autocomplete="current-password" placeholder="At least 6 characters"></label><div class="actions"><button id="signup">Create account</button><button id="login" class="secondary">Sign in</button><button id="logout" class="secondary hidden">Sign out</button></div><p id="authStatus" class="status">Not signed in.</p></section>
+<section id="matches"><div class="section-head"><div><p class="eyebrow">COMPETE IN NEPAL</p><h2>Featured matches</h2></div><span class="pill">FREE FIRE MAX ONLY</span></div><div id="matchList" class="match-grid"><article class="match"><span class="tag">DEMO CARD</span><h3>Clash Squad Custom</h3><p>Per Kill • Free entry</p><p class="muted">Live tournament listings will appear here after the database is connected.</p></article><article class="match"><span class="tag">DEMO CARD</span><h3>Battle Royale</h3><p>Survival • Up to 48 players</p><p class="muted">No live matches are configured yet.</p></article></div></section>
+<section class="panel"><h2>Your Tournament Points</h2><div class="balance"><b id="balance">— TP</b><small>Non-cash points • no purchase or withdrawal</small></div><p class="muted">Your balance will display after secure player-profile setup. Never share your password or OTP.</p></section>
+<section class="panel"><h2>Game modes</h2><div class="chips"><span>Lone Wolf</span><span>Clash Squad Custom</span><span>Battle Royale</span><span>Per Kill</span><span>Survival</span></div></section>
+</main>
+<footer>FREE FIRE NEPAL <span>Player support: WhatsApp +977 9816592421</span><small>Community tournament project. Not affiliated with Garena.</small></footer>
+<script type="module" src="app.js"></script>
+</body></html>
